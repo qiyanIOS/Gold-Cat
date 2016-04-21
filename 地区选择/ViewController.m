@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "RegionViewController.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)clickButton:(id)sender {
+    RegionViewController* regionVc=[RegionViewController new];
+    regionVc.currentCityString=@"西安";
+   regionVc.selectedStr=^(NSString * str)
+    {
+        self.nameLabel.text=str;
+    };
+    [self presentViewController:regionVc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

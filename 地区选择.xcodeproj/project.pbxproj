@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AFE9CE1CB5E54000694201 /* RegionResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFE9CD1CB5E54000694201 /* RegionResultViewController.m */; };
+		18B147361CB49A640096A1D5 /* regionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B147351CB49A640096A1D5 /* regionModel.m */; };
 		18F289901CB34C4E00B5003F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2898F1CB34C4E00B5003F /* main.m */; };
 		18F289931CB34C4E00B5003F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289921CB34C4E00B5003F /* AppDelegate.m */; };
 		18F289961CB34C4E00B5003F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289951CB34C4E00B5003F /* ViewController.m */; };
@@ -16,6 +18,12 @@
 		18F289A11CB34C4E00B5003F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2899F1CB34C4E00B5003F /* LaunchScreen.storyboard */; };
 		18F289AC1CB34C4E00B5003F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289AB1CB34C4E00B5003F /* ____Tests.m */; };
 		18F289B71CB34C4E00B5003F /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289B61CB34C4E00B5003F /* ____UITests.m */; };
+		18F289CA1CB34DE100B5003F /* RegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289C91CB34DE100B5003F /* RegionViewController.m */; };
+		18F289CD1CB3529500B5003F /* CustomTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289CC1CB3529500B5003F /* CustomTopView.m */; };
+		18F289CF1CB355AD00B5003F /* cancelBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F289CE1CB355AD00B5003F /* cancelBtn@2x.png */; };
+		18F289D21CB3584F00B5003F /* CustomSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289D11CB3584F00B5003F /* CustomSearchView.m */; };
+		18F289D51CB399D700B5003F /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F289D41CB399D700B5003F /* CityTableViewCell.m */; };
+		18F289D71CB3A1D300B5003F /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F289D61CB3A1D300B5003F /* citydict.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18AFE9CC1CB5E54000694201 /* RegionResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionResultViewController.h; sourceTree = "<group>"; };
+		18AFE9CD1CB5E54000694201 /* RegionResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionResultViewController.m; sourceTree = "<group>"; };
+		18B147341CB49A640096A1D5 /* regionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regionModel.h; sourceTree = "<group>"; };
+		18B147351CB49A640096A1D5 /* regionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regionModel.m; sourceTree = "<group>"; };
 		18F2898B1CB34C4E00B5003F /* 地区选择.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "地区选择.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F2898F1CB34C4E00B5003F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F289911CB34C4E00B5003F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +65,16 @@
 		18F289B21CB34C4E00B5003F /* 地区选择UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地区选择UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F289B61CB34C4E00B5003F /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		18F289B81CB34C4E00B5003F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F289C81CB34DE100B5003F /* RegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionViewController.h; sourceTree = "<group>"; };
+		18F289C91CB34DE100B5003F /* RegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionViewController.m; sourceTree = "<group>"; };
+		18F289CB1CB3529500B5003F /* CustomTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTopView.h; sourceTree = "<group>"; };
+		18F289CC1CB3529500B5003F /* CustomTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTopView.m; sourceTree = "<group>"; };
+		18F289CE1CB355AD00B5003F /* cancelBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelBtn@2x.png"; sourceTree = "<group>"; };
+		18F289D01CB3584F00B5003F /* CustomSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSearchView.h; sourceTree = "<group>"; };
+		18F289D11CB3584F00B5003F /* CustomSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSearchView.m; sourceTree = "<group>"; };
+		18F289D31CB399D700B5003F /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
+		18F289D41CB399D700B5003F /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
+		18F289D61CB3A1D300B5003F /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +129,11 @@
 				18F289921CB34C4E00B5003F /* AppDelegate.m */,
 				18F289941CB34C4E00B5003F /* ViewController.h */,
 				18F289951CB34C4E00B5003F /* ViewController.m */,
+				18F289C41CB34D4B00B5003F /* regionVC */,
 				18F289971CB34C4E00B5003F /* Main.storyboard */,
 				18F2899D1CB34C4E00B5003F /* Assets.xcassets */,
+				18F289D61CB3A1D300B5003F /* citydict.plist */,
+				18F289CE1CB355AD00B5003F /* cancelBtn@2x.png */,
 				18F2899F1CB34C4E00B5003F /* LaunchScreen.storyboard */,
 				18F289A21CB34C4E00B5003F /* Info.plist */,
 				18F2899A1CB34C4E00B5003F /* ____.xcdatamodeld */,
@@ -141,6 +166,49 @@
 				18F289B81CB34C4E00B5003F /* Info.plist */,
 			);
 			path = "地区选择UITests";
+			sourceTree = "<group>";
+		};
+		18F289C41CB34D4B00B5003F /* regionVC */ = {
+			isa = PBXGroup;
+			children = (
+				18F289C71CB34DC000B5003F /* regionViewController */,
+				18F289C51CB34DC000B5003F /* regionModel */,
+				18F289C61CB34DC000B5003F /* regionView */,
+			);
+			path = regionVC;
+			sourceTree = "<group>";
+		};
+		18F289C51CB34DC000B5003F /* regionModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B147341CB49A640096A1D5 /* regionModel.h */,
+				18B147351CB49A640096A1D5 /* regionModel.m */,
+			);
+			path = regionModel;
+			sourceTree = "<group>";
+		};
+		18F289C61CB34DC000B5003F /* regionView */ = {
+			isa = PBXGroup;
+			children = (
+				18F289CB1CB3529500B5003F /* CustomTopView.h */,
+				18F289CC1CB3529500B5003F /* CustomTopView.m */,
+				18F289D01CB3584F00B5003F /* CustomSearchView.h */,
+				18F289D11CB3584F00B5003F /* CustomSearchView.m */,
+				18F289D31CB399D700B5003F /* CityTableViewCell.h */,
+				18F289D41CB399D700B5003F /* CityTableViewCell.m */,
+			);
+			path = regionView;
+			sourceTree = "<group>";
+		};
+		18F289C71CB34DC000B5003F /* regionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18F289C81CB34DE100B5003F /* RegionViewController.h */,
+				18F289C91CB34DE100B5003F /* RegionViewController.m */,
+				18AFE9CC1CB5E54000694201 /* RegionResultViewController.h */,
+				18AFE9CD1CB5E54000694201 /* RegionResultViewController.m */,
+			);
+			path = regionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +278,7 @@
 				TargetAttributes = {
 					18F2898A1CB34C4E00B5003F = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SW2GZ8L88J;
 					};
 					18F289A61CB34C4E00B5003F = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -246,9 +315,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F289D71CB3A1D300B5003F /* citydict.plist in Resources */,
 				18F289A11CB34C4E00B5003F /* LaunchScreen.storyboard in Resources */,
 				18F2899E1CB34C4E00B5003F /* Assets.xcassets in Resources */,
 				18F289991CB34C4E00B5003F /* Main.storyboard in Resources */,
+				18F289CF1CB355AD00B5003F /* cancelBtn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B147361CB49A640096A1D5 /* regionModel.m in Sources */,
 				18F289961CB34C4E00B5003F /* ViewController.m in Sources */,
 				18F2899C1CB34C4E00B5003F /* ____.xcdatamodeld in Sources */,
+				18AFE9CE1CB5E54000694201 /* RegionResultViewController.m in Sources */,
+				18F289D51CB399D700B5003F /* CityTableViewCell.m in Sources */,
 				18F289931CB34C4E00B5003F /* AppDelegate.m in Sources */,
+				18F289CD1CB3529500B5003F /* CustomTopView.m in Sources */,
+				18F289D21CB3584F00B5003F /* CustomSearchView.m in Sources */,
+				18F289CA1CB34DE100B5003F /* RegionViewController.m in Sources */,
 				18F289901CB34C4E00B5003F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "地区选择/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SC.----";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +506,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "地区选择/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SC.----";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -500,6 +583,7 @@
 				18F289BD1CB34C4E00B5003F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F289BE1CB34C4E00B5003F /* Build configuration list for PBXNativeTarget "地区选择Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +592,7 @@
 				18F289C01CB34C4E00B5003F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F289C11CB34C4E00B5003F /* Build configuration list for PBXNativeTarget "地区选择UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +601,7 @@
 				18F289C31CB34C4E00B5003F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
